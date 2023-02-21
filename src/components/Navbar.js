@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Navbar.css'
 import {FaItunes} from "react-icons/fa" 
 
+
 function Navbar() {
   return (
     <div className='navbar'>

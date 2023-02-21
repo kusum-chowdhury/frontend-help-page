@@ -1,0 +1,11 @@
+.footer-element {
+    color: white;
+}
+.footer .bold {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer p {
+    font-size: 18px;
+    line-height: 50%;
+}

@@ -1,0 +1,14 @@
+.copyright-container { 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+.copyright-container svg {
+    font-size: 30px;
+}
+.copyright-container .copyright-p {
+    width: 200px;
+    line-height: 28px;
+}
