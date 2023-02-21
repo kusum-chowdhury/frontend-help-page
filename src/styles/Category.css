@@ -1,0 +1,33 @@
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.category img {
+    width: 100px;
+    height: 100px;
+}
+.category .bold, p {
+    font-size: 22px;
+}
+.bold {
+    font-weight: 700;
+    margin-top: 5px;
+}
+.category a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4C5FD5;
+    
+}
+.learn-more {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #4C5FD5;
+}
+.learn-more:hover {
+    border-bottom: 2px solid #4C5FD5;
+    width: 130px;
+}
