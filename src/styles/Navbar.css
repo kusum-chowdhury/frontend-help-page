@@ -1,11 +1,10 @@
 .navbar {
     background-color: black;
-    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 7.5rem;
-    
+    padding: 1.8rem 7.5rem;
+    overflow: hidden;
 }
 .logo svg {
     background-color: aliceblue;
@@ -56,5 +55,77 @@
 .buttons {
     display: flex;
     gap: 1rem;
+    align-items: center;
   
+}
+.menu-icon {
+color: white;
+font-size: 40px;
+}
+
+.menu-icon {
+    display: none;
+    
+  }
+  .small-btns {
+    display: none;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 1rem 7.5rem;
+    
+    }
+    .small-btns {
+      display: none;
+    }
+    .small-btns:not(.hide) {
+      display: flex;
+    }
+  .small-btns button {
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    padding: .5rem 0;
+    display: block;
+    width: 100%;
+      
+}
+  .buttons {
+    display: none;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .left {
+  
+    justify-content: space-between;
+  }
+
+  .logo h2 {
+    font-size: 1.5rem;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    
+  }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 1rem 1rem;
+    
+    }
 }
